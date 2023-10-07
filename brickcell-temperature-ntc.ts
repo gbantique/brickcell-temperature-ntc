@@ -6,9 +6,9 @@ namespace Brickcell {
     // (usually 3000-4000) check the datasheet for the accurate value.
 
     /**
-    * Read temperature using NTC thermistor
+    * Read NTC temperature
     */
-    //% block="Read temperature on pin $ntcPin"
+    //% block="Read NTC temperature on pin $ntcPin"
     //% blockId=brickcell_temperature_ntc_read
     //% subcategory="temperature ntc"
     export function readTemperature(ntcPin: AnalogPin): number {
